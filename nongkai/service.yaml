@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Service
-namespace: dev
 metadata:
   name: nongkai-service
+  namespace: dev
 spec:
   selector:
     app: nongkai
